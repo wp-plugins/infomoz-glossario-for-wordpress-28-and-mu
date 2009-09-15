@@ -1,4 +1,4 @@
-=== INFOmoz-Glossário ===
+=== INFOmoz-Glossario ===
 Contributors: IMM-Glossary, Sociable
 Donate link: http://infomoz.net/lang/pt-br/doacoesdonations
 Tags: Glossario,Glossary,posts, terms, dictionary,definitions,infomoz
