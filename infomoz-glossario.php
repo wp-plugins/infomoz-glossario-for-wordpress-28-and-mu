@@ -4,7 +4,7 @@
         Plugin Name: INFOmoz-glossario
         Plugin URI: http://www.infomoz.net/infomoz-glossario-plugin-para-wordpress-2-8-1-e-wordpress-mu/
         Description: The INFOmoz-glossario plugin was created by Internet Marketing Monitor, to give WordPress users an easy way to create and manage an online glossary of terms relevant to their website.  Adding terms and linking to them by hand was a tedious process.  The INFOmoz-glossario plugin makes keeping your readers educated easy. I have changed some parts of code to make it compatible with Wordpress 2.8+ and Wordpress MU. I have only tested on Wordpress MU2.8.1, but it should work on any other version.
-        Version: 2.8.1
+        Version: 0.1
         Author: Elisio Leonardo(Based on Internet Marketing Monitor Wordpress Plugin)
         Author URI: http://infomoz.net/sobre-elisio-leonardo/
     */
@@ -1149,7 +1149,8 @@
                     {
                         $URL = get_option ( 'siteurl' ) . '/wp-content/plugins/INFOmoz-glossario/Pop_Up.php?Title=' . base64_encode ( $Term['Title'] ) . '&Definition=' . base64_encode ( $Term['Definition'] ) ;
                     }
-
+
+
                     if ( 'A' == $GLOBALS['INFOmoz-glossario']['Settings']['Library'] )
                     {
                         $termo=$Term['Definition'];
@@ -1164,7 +1165,8 @@
                     {
                         $termo=$Term['Definition'];
 
-                        $Link= '<span class="hotspot" onmouseover="'."tooltip.show('$termo');".'" onmouseout="tooltip.hide();">${2}</span>';
+                        $Link= '<span class="hotspot" onmouseover="'."tooltip.show('$termo');".'" onmouseout="tooltip.hide();">${2}</span>';
+
                     }
 
                     if ( 'A' == $GLOBALS['INFOmoz-glossario']['Settings']['Library'] )
